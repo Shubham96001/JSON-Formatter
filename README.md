@@ -1,16 +1,61 @@
-# React + Vite
+# JSON Formatter & Validator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, clean, and highly responsive **JSON Formatter & Validator** tool built with React and Vite. 
 
-Currently, two official plugins are available:
+This project was built as part of the **Digital Heroes Trial Task**, demonstrating the ability to independently build and ship a genuinely useful product using modern web development practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Purpose
 
-## React Compiler
+As developers, we frequently work with APIs and deal with large, unreadable payloads of JSON data. This tool solves the problem of dealing with raw JSON by instantly:
+- Formatting it into a clean, readable structure.
+- Minifying it into a single line to save space for database entries or HTTP requests.
+- Validating the syntax in real-time, catching missing brackets, trailing commas, and structural errors before they cause bugs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- ✨ **Instant Formatting**: Prettify messy or minified JSON with a single click.
+- 📉 **Minification**: Compress formatted JSON down to a single line.
+- 🚨 **Syntax Validation**: Real-time error handling alerts you precisely when your JSON is invalid.
+- 📋 **One-Click Copy**: Instantly copy the output to your clipboard.
+- 🎨 **Modern Light Theme**: Built with a sleek, vibrant, glassmorphism-inspired UI for an excellent developer experience.
+- 📱 **Fully Responsive**: Adapts seamlessly to mobile and desktop screens.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Framework**: React 18
+- **Build Tool**: Vite
+- **Styling**: Vanilla CSS (CSS Variables, Flexbox, CSS Grid)
+- **Deployment**: Vercel
+
+## Local Development
+
+If you'd like to run this project locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Shubham96001/JSON-Formatter.git
+   cd JSON-Formatter
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## Author
+
+- **Shubham Verma** - [shubhamverma9298@gmail.com](mailto:shubhamverma9298@gmail.com)
+
+---
+
+*Built for [Digital Heroes](https://digitalheroesco.com).*
